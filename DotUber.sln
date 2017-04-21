@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5CFE00DB-D12B-42FC-9AF6-9DD660AE1BC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9722C1C3-26DA-4563-9021-99944BA1BE53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesTest", "test\ServicesTest\ServicesTest.csproj", "{1471191C-8426-4901-9930-50E544DF3A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotUber", "src\DotUber\DotUber.csproj", "{5EBB5A5D-C309-4676-B29B-DDDEAA3AB1DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1471191C-8426-4901-9930-50E544DF3A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1471191C-8426-4901-9930-50E544DF3A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1471191C-8426-4901-9930-50E544DF3A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1471191C-8426-4901-9930-50E544DF3A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBB5A5D-C309-4676-B29B-DDDEAA3AB1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBB5A5D-C309-4676-B29B-DDDEAA3AB1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBB5A5D-C309-4676-B29B-DDDEAA3AB1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBB5A5D-C309-4676-B29B-DDDEAA3AB1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1471191C-8426-4901-9930-50E544DF3A42} = {9722C1C3-26DA-4563-9021-99944BA1BE53}
+		{5EBB5A5D-C309-4676-B29B-DDDEAA3AB1DD} = {5CFE00DB-D12B-42FC-9AF6-9DD660AE1BC4}
+	EndGlobalSection
+EndGlobal
